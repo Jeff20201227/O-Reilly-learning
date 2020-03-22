@@ -1,0 +1,59 @@
+      body {
+          font-size: small;
+          font-family: Verdana, Helvetica, Arial, sans-serif;
+          line-height: 1.6em;
+          background-image: url(images/html.webp);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: 0 -5%, center;
+          background-size: cover;
+          margin-right: 20px;
+          color: #ffffff;
+          background-color: #012527;
+      }
+
+      h1,
+      h2 {
+          color: #ffffff;
+      }
+
+      h1 {
+          font-size: 150%;
+      }
+
+      h2 {
+          font-size: 130%;
+      }
+
+      p {
+          color: #ffffff;
+      }
+
+      a {
+          color: #ffffff;
+      }
+
+      #footer {
+          padding: 30% 25%;
+          position: fixed;
+      }
+
+      #StarBuzz {
+          color: red;
+      }
+
+      #Head_First {
+          color: white;
+      }
+
+      #iPod {
+          color: yellow;
+      }
+
+      #Tony {
+          color: orange;
+      }
+
+      a img {
+          border: none;
+      }

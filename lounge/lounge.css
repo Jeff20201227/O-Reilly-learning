@@ -1,0 +1,112 @@
+      
+      body {
+        font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+      }
+
+      h1, h2 {
+        color: #007e7e;
+      }
+
+      h1 {
+        border-bottom: 1px solid black;
+        font-size: 150%;
+      }
+
+      h2 {
+        font-size: 130%;
+      }
+
+      p {
+        color: maroon;
+      }
+
+    p.greentea {
+        color: green;
+      }
+
+    p.raspberry {
+        color: blue;
+    }
+
+
+    p.blueberry {
+      color: purple;
+    } 
+
+    #guarantee {
+      border: 1px dashed white;
+      background-color: #a7cece;
+
+      padding: 25px;
+      padding-left: 80px; 
+
+      margin: 30px;
+      margin-right: 250px;
+
+      line-height: 1.9em;
+      font-style: italic;
+      color: #444444;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      background: no-repeat top left url(images/background.gif);
+    }
+
+    #elixirs {
+      border: thin solid #007e7e;
+      width: 200px;
+
+      padding: 0px 20px 20px 20px;
+
+      margin-left: 20px;
+
+      text-align: center;
+      line-height: 1;
+
+      background: repeat-x url(images/cocktail.gif);
+
+      float: right;
+    }
+
+    #elixirs h2 {
+      color: black;
+    }
+
+    #elixirs h3 {
+      color: red;
+    }
+
+    #elixirs a:link {
+      color: #007e7e;
+    }
+
+    #elixirs a:visited {
+      color: #333333;
+    }
+
+    #elixirs a:hover {
+      background: #f88396;
+      color: #0d5353;
+    }
+
+    .footer {
+      font-size: 50%;
+      text-align: center;
+      line-height: normal;
+      margin-top: 12%;
+    }
+
+    .cd {
+      font-style: italic;
+    }
+
+    .artist {
+      font-weight: bold;
+    }
+
+    a:link {
+      color: #007e7e;
+    }
+
+    a:visited {
+      color: #333333;
+    }
+

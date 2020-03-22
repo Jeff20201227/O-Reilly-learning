@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Starbuzz Bean Machine</title>
+    <link rel="stylesheet" href="starbuzz.css">
+    <link rel="stylesheet" href="styledform.css">
+</head>
+
+<body>
+    <header class="top">
+        <img id="headerLogo" src="images/headerLogo.gif" alt="Изображение логотипа кафейни Starbuzz">
+        <img id="headerSlogan" src="images/headerSlogan.gif" alt="Обеспечивает достаточным количеством кафеина">
+        <div id="award">
+            <img src="images/award.gif" alt="Награда обжарщику кофейных зерен года">
+        </div>
+    </header>
+    <nav>
+        <ul>
+           <li><a href="../index.html">ТИТУЛЬНАЯ</a></li>
+            <li><a href="kafe.html">ГЛАВНАЯ КОФЕЙНИ</a></li>
+            <li><a href="blog.html">БЛОГ</a></li>
+        </ul>
+    </nav>
+
+    <h1>Starbuzz Bean Machine</h1>
+    <h2>Заполните следующую форму и нажмите кнопку "Заказать сейчас", чтобы оформить заказ</h2>
+
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+        <div class="tableRow">
+            <p>Выберите кофе:
+                <select name="beans">
+                    <option value="Смесь">Домашняя смесь</option>
+                    <option value="Боливия">Боливия</option>
+                    <option value="Гватемала">Гватемала</option>
+                    <option value="Кения">Кения</option>
+                </select>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p> Тип: <br></p>
+            <p>
+                <input type="radio" name="beantype" value="зёрна"> Кофе в зёрнах <br>
+                <input type="radio" name="beantype" value="молотый" checked> Молотый кофе <br>
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p>Количество пакетиков: <input type="number" name="bags" min="1" max="10"></p>
+        </div>
+        <div class="tableRow">
+            <p>Доставить к указанной дате: <input type="date" name="data"></p>
+        </div>
+        <div class="tableRow">
+
+            <p>Дополнительные услуги: <br></p>
+            <p>
+                <input type="checkbox" name="extras[]" value="подарочная упаковка">Подарочная упаковка<br>
+                <input type="checkbox" name="extras[]" value="каталог" checked>Доставка каталога вместе с заказом<br>
+            </p>
+        </div>
+
+        <div class="tableRow">
+            <p class="heading"> Доставить по адресу:</p>
+            <p></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Имя:</p>
+            <p><input type="text" name="name"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Адрес:</p>
+            <p><input type="text" name="address"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Город:</p>
+            <p><input type="text" name="city"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Страна:</p>
+            <p><input type="text" name="state"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Почтовый индекс:</p>
+            <p><input type="text" name="zip"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Телефон:</p>
+            <p><input type="tel" name="phone"></p>
+        </div>
+
+        <div class="tableRow">
+            <p>Комментарии клиентов: </p>
+            <p><textarea name="comments"></textarea></p>
+        </div>
+        <div class="tableRow">
+            <p></p>
+            <p><input type="submit" value="Заказать сейчас"></p>
+        </div>
+    </form>
+    <footer>
+        <a href="../index.html">Возврат на главную страницу учебного сайта</a>
+        &copy; 2012, Кафе Starbuzz
+        <br>
+        Все торговые марки, которые появляются на данном сайте, являются собственностью их владельцев.
+    </footer>
+</body></html>
